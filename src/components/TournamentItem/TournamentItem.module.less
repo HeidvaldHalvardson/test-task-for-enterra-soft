@@ -1,0 +1,87 @@
+@import "../../app/styles/variables.less";
+
+.item {
+  width: 100%;
+  background-color: #373352;
+  border-radius: 4px;
+  display: flex;
+  min-height: 78px;
+
+  &:active {
+    background-color: #2f2b47;
+  }
+  
+  &.selected {
+    background-color: #443e73;
+  }
+
+  @media (min-width: @desktop-width) {
+    &:hover {
+      background-color: #423d62;
+    }
+  }
+}
+
+.label {
+  writing-mode: vertical-lr;
+  rotate: 180deg;
+  width: 16px;
+  text-align: center;
+  font-size: 8px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  border-radius: 0 4px 4px 0;
+
+  background-color: #00bb40;
+
+  &.canceled {
+    background-color: #5e5a79;
+  }
+}
+
+.item-wrapper {
+  width: 100%;
+  padding: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.inner-top {
+  display: flex;
+  gap: 4px;
+}
+
+.title {
+  font-size: 12px;
+}
+
+.footer {
+  font-weight: 500;
+  font-size: 10px;
+  display: grid;
+  grid-template-columns: 134px 78px auto;
+
+  & div {
+    display: flex;
+    align-items: end;
+  }
+
+  & span {
+    margin-left: 4px;
+  }
+}
+

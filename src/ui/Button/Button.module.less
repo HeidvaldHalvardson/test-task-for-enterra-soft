@@ -1,0 +1,28 @@
+@import "../../app/styles/variables.less";
+
+.button {
+  border: none;
+  border-radius: 4px;
+  width: 80px;
+  height: 34px;
+  color: #ffffff;
+  background-color: #00bb40;
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  
+  &:active {
+    background-color: #0e8938;
+  }
+
+  @media (min-width: @desktop-width) {
+    &:hover {
+      background-color: #43ce72;
+    }
+  }
+
+  &.canceled {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}

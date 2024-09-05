@@ -1,0 +1,89 @@
+[
+  {
+    "cancel": false,
+    "tags": [
+      "NL 2-7 Triple Draw"
+    ],
+    "title": "OFC Pineapple",
+    "isSelected": true,
+    "date": "12:00 pm, 28 July",
+    "reward": 1000000,
+    "players": {
+      "count": 1000,
+      "all": 1000
+    }
+  },
+  {
+    "cancel": false,
+    "tags": [
+      "NL Holdem"
+    ],
+    "title": "OFC Pineapple",
+    "isSelected": true,
+    "date": "12:00 pm, 28 July",
+    "reward": 100,
+    "players": {
+      "count": 1,
+      "all": 6
+    }
+  },
+  {
+    "cancel": true,
+    "tags": [
+      "NL OFC/pineapple prg",
+      "FreeRoll",
+      "Time"
+    ],
+    "title": "Hourly Freeroll",
+    "isSelected": true,
+    "date": "12:00 pm, 28 July",
+    "reward": 100,
+    "players": {
+      "count": 1,
+      "all": 10000
+    }
+  },
+  {
+    "cancel": true,
+    "tags": [
+      "PL Omaha h/l"
+    ],
+    "title": "Rapid Tournament",
+    "isSelected": false,
+    "date": "12:00 pm, 28 July",
+    "reward": 1000000,
+    "players": {
+      "count": 0,
+      "all": 0
+    }
+  },
+  {
+    "cancel": true,
+    "tags": [
+      "NL 6 cards omaha h/l",
+      "Rapid"
+    ],
+    "title": "PL Omaha Knockout",
+    "isSelected": false,
+    "date": "12:00 pm, 28 July",
+    "reward": 146,
+    "players": {
+      "count": 0,
+      "all": 100
+    }
+  },
+  {
+    "cancel": false,
+    "tags": [
+      "NL 2-7 Triple Draw"
+    ],
+    "title": "OFC Pineapple",
+    "isSelected": false,
+    "date": "12:00 pm, 28 July",
+    "reward": 1000000,
+    "players": {
+      "count": 1000,
+      "all": 1000
+    }
+  }
+]

@@ -1,0 +1,27 @@
+@import "../../app/styles/variables.less";
+
+.tags {
+  max-width: 75vw;
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+
+  & li {
+    line-height: 0;
+
+    &.tag {
+      line-height: 1;
+    }
+  }
+
+}
+
+.tag {
+  border: 1px solid #fff;
+  border-radius: 2px;
+  padding: 3px;
+
+  font-size: 8px;
+  text-transform: uppercase;
+}
+
